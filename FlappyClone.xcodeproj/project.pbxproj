@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4746C9671D2CB925008D42FE /* 04B_19__.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 4746C9661D2CB925008D42FE /* 04B_19__.TTF */; };
+		4787C1811D2C55040084F8A8 /* 04B_19__.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 4787C1801D2C55040084F8A8 /* 04B_19__.TTF */; };
 		47FE91891D232137002E73C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FE91881D232137002E73C5 /* AppDelegate.swift */; };
 		47FE918B1D232137002E73C5 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 47FE918A1D232137002E73C5 /* GameScene.sks */; };
 		47FE918D1D232137002E73C5 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FE918C1D232137002E73C5 /* GameScene.swift */; };
@@ -16,6 +18,7 @@
 		47FE91971D232137002E73C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47FE91951D232137002E73C5 /* LaunchScreen.storyboard */; };
 		47FE91A21D232137002E73C5 /* FlappyCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FE91A11D232137002E73C5 /* FlappyCloneTests.swift */; };
 		47FE91AD1D232137002E73C5 /* FlappyCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FE91AC1D232137002E73C5 /* FlappyCloneUITests.swift */; };
+		47FE91BB1D24A334002E73C5 /* RandomFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47FE91BA1D24A334002E73C5 /* RandomFunction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4746C9661D2CB925008D42FE /* 04B_19__.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = 04B_19__.TTF; sourceTree = "<group>"; };
+		4787C1801D2C55040084F8A8 /* 04B_19__.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = 04B_19__.TTF; sourceTree = "<group>"; };
 		47FE91851D232137002E73C5 /* FlappyClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlappyClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47FE91881D232137002E73C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		47FE918A1D232137002E73C5 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -51,6 +56,7 @@
 		47FE91A81D232137002E73C5 /* FlappyCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlappyCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		47FE91AC1D232137002E73C5 /* FlappyCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlappyCloneUITests.swift; sourceTree = "<group>"; };
 		47FE91AE1D232137002E73C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47FE91BA1D24A334002E73C5 /* RandomFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomFunction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,7 @@
 		47FE917C1D232137002E73C5 = {
 			isa = PBXGroup;
 			children = (
+				4746C9661D2CB925008D42FE /* 04B_19__.TTF */,
 				47FE91871D232137002E73C5 /* FlappyClone */,
 				47FE91A01D232137002E73C5 /* FlappyCloneTests */,
 				47FE91AB1D232137002E73C5 /* FlappyCloneUITests */,
@@ -104,6 +111,8 @@
 				47FE91881D232137002E73C5 /* AppDelegate.swift */,
 				47FE918A1D232137002E73C5 /* GameScene.sks */,
 				47FE918C1D232137002E73C5 /* GameScene.swift */,
+				4787C1801D2C55040084F8A8 /* 04B_19__.TTF */,
+				47FE91BA1D24A334002E73C5 /* RandomFunction.swift */,
 				47FE918E1D232137002E73C5 /* GameViewController.swift */,
 				47FE91901D232137002E73C5 /* Main.storyboard */,
 				47FE91931D232137002E73C5 /* Assets.xcassets */,
@@ -236,7 +245,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				47FE918B1D232137002E73C5 /* GameScene.sks in Resources */,
+				4746C9671D2CB925008D42FE /* 04B_19__.TTF in Resources */,
 				47FE91971D232137002E73C5 /* LaunchScreen.storyboard in Resources */,
+				4787C1811D2C55040084F8A8 /* 04B_19__.TTF in Resources */,
 				47FE91941D232137002E73C5 /* Assets.xcassets in Resources */,
 				47FE91921D232137002E73C5 /* Main.storyboard in Resources */,
 			);
@@ -265,6 +276,7 @@
 			files = (
 				47FE918D1D232137002E73C5 /* GameScene.swift in Sources */,
 				47FE918F1D232137002E73C5 /* GameViewController.swift in Sources */,
+				47FE91BB1D24A334002E73C5 /* RandomFunction.swift in Sources */,
 				47FE91891D232137002E73C5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -494,6 +506,7 @@
 				47FE91B31D232137002E73C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		47FE91B41D232137002E73C5 /* Build configuration list for PBXNativeTarget "FlappyCloneTests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +515,7 @@
 				47FE91B61D232137002E73C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		47FE91B71D232137002E73C5 /* Build configuration list for PBXNativeTarget "FlappyCloneUITests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +524,7 @@
 				47FE91B91D232137002E73C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
